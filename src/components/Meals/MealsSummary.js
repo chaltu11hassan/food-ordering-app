@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from './MealsSummary.module.css'
 
-const MealSummary = () => {
+const MealsSummary = () => {
   return (
     <section className={classes.summary}>
       <h2>Delicious Food, Delivered To You</h2>
@@ -18,4 +18,4 @@ const MealSummary = () => {
   );
 };
 
-export default MealSummary;
+export default MealsSummary;
